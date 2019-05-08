@@ -8,7 +8,7 @@
 
 <% if @user.articles.empty? %>
       <div class="empty_list_of_oarticles">
-        <p align="center" margin-top="16px">You haven't any article</p>
+        <p align="center">You haven't any article</p>
        </div>
    <% else %>
        <%= render 'articles/article', obj: @user.articles %>
